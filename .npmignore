@@ -1,0 +1,8 @@
+.*
+test
+yarn-error.log
+
+coverage
+lib
+example.js
+index.html

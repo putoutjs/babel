@@ -1,0 +1,72 @@
+{
+  "name": "@putout/babel",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Babel 8 in CommonJS",
+  "homepage": "https://github.com/putoutjs/babel",
+  "main": "./bundle/babel.cjs",
+  "exports": {
+    ".": "./bundle/babel.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/putoutjs/babel.git"
+  },
+  "files": [
+    "babel",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report",
+    "wisdom": "madrun wisdom",
+    "build": "madrun build",
+    "build:babel": "madrun build:babel",
+    "build:putout:iife": "madrun build:putout:iife"
+  },
+  "dependencies": {},
+  "keywords": [
+    "babel",
+    "bundle",
+    "commonjs"
+  ],
+  "devDependencies": {
+    "@babel/code-frame": "^8.0.0-alpha.1",
+    "@babel/generator": "^8.0.0-alpha.1",
+    "@babel/parser": "^8.0.0-alpha.1",
+    "@babel/template": "^8.0.0-alpha.1",
+    "@babel/traverse": "^8.0.0-alpha.1",
+    "@babel/types": "^8.0.0-alpha.1",
+    "@rollup/plugin-alias": "^5.0.0",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "acorn-stage3": "^4.0.0",
+    "c8": "^8.0.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-putout": "^18.1.0",
+    "madrun": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "putout": "^30.3.1",
+    "rollup": "^3.15.0",
+    "rollup-plugin-node-externals": "^6.1.1",
+    "rollup-plugin-polyfill-node": "^0.12.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
