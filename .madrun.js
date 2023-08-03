@@ -14,6 +14,15 @@ export default {
     'coverage': async () => `c8 ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('build'),
-    'build': () => 'rollup -c',
+    'build': () => run('build:*'),
+    'build:types': () => rollup('types'),
+    'build:generator': () => rollup('generator'),
+    'build:code-frame': () => rollup('code-frame'),
+    'build:traverse': () => rollup('traverse'),
+    'build:parser': () => rollup('parser'),
+    'build:template': () => rollup('template'),
 };
 
+function rollup(name) {
+    return `rollup -c rollup-${name}.config.js`;
+}

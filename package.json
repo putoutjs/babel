@@ -7,7 +7,11 @@
   "homepage": "https://github.com/putoutjs/babel",
   "main": "./bundle/babel.cjs",
   "exports": {
-    ".": "./bundle/babel.cjs"
+    "types": "./bundle/types.cjs",
+    "generator": "./bundle/generator.cjs",
+    "code-frame": "./bundle/code-frame.cjs",
+    "parser": "./bundle/parser.cjs",
+    "traverse": "./bundle/traverse.cjs"
   },
   "repository": {
     "type": "git",
@@ -29,8 +33,12 @@
     "report": "madrun report",
     "wisdom": "madrun wisdom",
     "build": "madrun build",
-    "build:babel": "madrun build:babel",
-    "build:putout:iife": "madrun build:putout:iife"
+    "build:types": "madrun build:types",
+    "build:generator": "madrun build:generator",
+    "build:code-frame": "madrun build:code-frame",
+    "build:traverse": "madrun build:traverse",
+    "build:parser": "madrun build:parser",
+    "build:template": "madrun build:template"
   },
   "dependencies": {},
   "keywords": [
