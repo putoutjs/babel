@@ -11,29 +11,14 @@ export default {
         format: 'cjs',
     },
     plugins: [
-        alias({
-            entries: [{
-                find: 'putout',
-                replacement: '@putout/bundle',
-            }],
-        }),
         nodeResolve({
             preferBuiltins: false,
             browser: true,
-            resolveOnly: (module) => module !== '@putout/bundle',
         }),
         externals({
             deps: false,
         }),
-        commonjs({
-            dynamicRequireTargets: [
-                'node_modules/@putout/plugin-putout/lib/*',
-                '!node_modules/@putout/plugin-putout/lib/index.js',
-            ],
-            exclude: [
-                '@putout/bundle',
-            ],
-        }),
+        commonjs(),
         json(),
     ],
 };
