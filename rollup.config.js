@@ -20,5 +20,11 @@ export default {
         }),
         commonjs(),
         json(),
+        alias({
+            entries: [{
+                find: 'globals-BABEL_8_BREAKING-false',
+                replacement: 'globals',
+            }],
+        }),
     ],
 };

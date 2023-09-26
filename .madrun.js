@@ -15,5 +15,27 @@ export default {
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('build'),
     'build': () => 'rollup -c',
-};
+    copy,
+}
 
+function copy() {
+    const cmdCopy = [
+        'parser',
+        'traverse',
+        'generator',
+        'template',
+        'types',
+        'code-frame',
+        'globals-BABEL_8_BREAKING-true',
+    ].map(copyOne).join('; ');
+    
+    return [
+        'rm -rf packages',
+        'mkdir packages',
+        cmdCopy,
+    ].join('; ');
+}
+
+function copyOne(name) {
+    return `cp -fr ../babel/packages/babel-${name} packages/${name}`;
+}
