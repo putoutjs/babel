@@ -9,6 +9,9 @@ export default {
     output: {
         file: 'bundle/babel.cjs',
         format: 'cjs',
+        globals: {
+            navigator: {},
+        },
     },
     plugins: [
         nodeResolve({
@@ -20,11 +23,5 @@ export default {
         }),
         commonjs(),
         json(),
-        alias({
-            entries: [{
-                find: 'globals-BABEL_8_BREAKING-false',
-                replacement: 'globals',
-            }],
-        }),
     ],
 };
