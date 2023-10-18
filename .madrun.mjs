@@ -11,7 +11,7 @@ export default {
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('build'),
     'build:old': () => 'rollup -c',
-    'build': () => 'tsup babel/index.mjs -d bundle --dts-resolve',
+    'build': () => 'rm -rf bundle && tsup babel/index.mjs -d bundle --dts-resolve',
     copy,
 };
 
