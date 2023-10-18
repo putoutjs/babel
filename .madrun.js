@@ -14,7 +14,8 @@ export default {
     'coverage': async () => `c8 ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('build'),
-    'build': () => 'rollup -c',
+    'build:old': () => 'rollup -c',
+    'build': () => 'tsup babel/index.js -d bundle --dts-resolve',
     copy,
 }
 

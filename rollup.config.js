@@ -8,7 +8,7 @@ import replace from '@rollup/plugin-replace';
 export default {
     input: 'babel/index.js',
     output: {
-        file: 'bundle/babel.cjs',
+        file: 'bundle/index.cjs',
         format: 'cjs',
         globals: {
             navigator: {},
