@@ -5,14 +5,12 @@ interface Location {
     start: {
         line: number;
         column: number;
-    }
+    };
 }
 
-interface Options {
-}
+interface Options {}
 
-declare function codeFrameColumns(rawLines: string, location: Location, options: Options): void
-
+declare function codeFrameColumns(rawLines: string, location: Location, options: Options): string;
 export {
-    type codeFrameColumns
-}
+    type codeFrameColumns,
+};
