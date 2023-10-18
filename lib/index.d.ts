@@ -11,13 +11,8 @@ interface Location {
 
 interface CodeFrameOptions {}
 
-interface TraverseOptions {
-  noScope?: boolean;
-}
-
 declare function codeFrameColumns(rawLines: string, location: Location, options: CodeFrameOptions): string;
 export {
     type codeFrameColumns,
     type traverse,
 };
-

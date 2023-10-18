@@ -1,4 +1,8 @@
-import {traverse, codeFrameColumns, types} from '../';
+import {
+    traverse,
+    codeFrameColumns,
+    types,
+} from '../';
 
 const rawLines = `class Foo {
   constructor()

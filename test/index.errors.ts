@@ -16,6 +16,5 @@ const a: number = isIdentifier({});
 parse(a);
 // THROWS Expected 3 arguments, but got 0.
 codeFrameColumns();
-
 // THROWS Expected 2-3 arguments, but got 1.
 traverse(5);
