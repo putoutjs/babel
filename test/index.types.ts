@@ -2,6 +2,7 @@ import {
     traverse,
     codeFrameColumns,
     types,
+    template,
 } from '../';
 
 const rawLines = `class Foo {
@@ -28,3 +29,5 @@ const ast = {
 };
 
 traverse(ast as types.Identifier, {});
+
+template('const a = 5');
