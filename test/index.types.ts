@@ -1,4 +1,4 @@
-import {codeFrameColumns} from '..';
+import {traverse, codeFrameColumns, types} from '../';
 
 const rawLines = `class Foo {
   constructor()
@@ -14,3 +14,13 @@ const location = {
 const result = codeFrameColumns(rawLines, location, {/* options */});
 
 console.log(result);
+
+const ast = {
+    type: 'Identifier',
+    name: 'hello',
+    optional: null,
+    typeAnnotation: null,
+    decorators: null,
+};
+
+traverse(ast as types.Identifier, {});

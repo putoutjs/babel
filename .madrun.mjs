@@ -10,7 +10,7 @@ export default {
     'fix:lint': () => run('lint', '--fix'),
     'coverage': async () => `c8 ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
-    'wisdom': () => run('build', 'test', 'check:dts'),
+    'wisdom': () => run(['build', 'test', 'test:dts']),
     'build-old': () => 'rollup -c',
     'clean': () => 'rm -rf bundle',
     'build': () => run(['clean', 'build:js', 'build:fix']),

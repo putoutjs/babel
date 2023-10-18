@@ -1,5 +1,6 @@
 export * from '@babel/parser';
 export * as types from '@babel/types';
+import {traverse} from '@babel/types';
 
 interface Location {
     start: {
@@ -8,9 +9,15 @@ interface Location {
     };
 }
 
-interface Options {}
+interface CodeFrameOptions {}
 
-declare function codeFrameColumns(rawLines: string, location: Location, options: Options): string;
+interface TraverseOptions {
+  noScope?: boolean;
+}
+
+declare function codeFrameColumns(rawLines: string, location: Location, options: CodeFrameOptions): string;
 export {
     type codeFrameColumns,
+    type traverse,
 };
+
