@@ -1,9 +1,4 @@
-import {
-    traverse,
-    codeFrameColumns,
-    types,
-    template,
-} from '../';
+import {generate, traverse, codeFrameColumns, types, template} from '../';
 
 const rawLines = `class Foo {
   constructor()
@@ -31,3 +26,5 @@ const ast = {
 traverse(ast as types.Identifier, {});
 
 template('const a = 5');
+
+generate(ast as types.Identifier);

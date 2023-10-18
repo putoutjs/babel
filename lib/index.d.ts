@@ -19,6 +19,8 @@ interface TemplateOptions {}
 declare function codeFrameColumns(rawLines: string, location: Location, options: CodeFrameOptions): string;
 declare function template(source: string, options?: TemplateOptions): string;
 declare function ast(source: string): Node;
+declare function generate(ast: Node): string;
+
 declare namespace template {
     export {
         ast,
@@ -29,4 +31,5 @@ export {
     codeFrameColumns,
     traverse,
     template,
+    generate,
 };
