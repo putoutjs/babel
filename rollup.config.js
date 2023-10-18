@@ -8,7 +8,7 @@ const externals = require('rollup-plugin-node-externals');
 const replace = require('@rollup/plugin-replace');
 
 module.exports = {
-    input: 'babel/index.js',
+    input: 'lib/index.js',
     output: {
         file: 'bundle/index.cjs',
         format: 'cjs',

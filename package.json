@@ -5,7 +5,7 @@
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Babel 8 in CommonJS",
   "homepage": "https://github.com/putoutjs/babel",
-  "main": "./bundle/babel.cjs",
+  "main": "./bundle/index.js",
   "exports": {
     ".": "./bundle/index.js"
   },
@@ -29,7 +29,12 @@
     "coverage": "madrun coverage",
     "report": "madrun report",
     "wisdom": "madrun wisdom",
+    "build-old": "madrun build-old",
+    "clean": "madrun clean",
     "build": "madrun build",
+    "build:js": "madrun build:js",
+    "build:types": "madrun build:types",
+    "build:fix": "madrun build:fix",
     "copy": "madrun copy"
   },
   "dependencies": {},
@@ -64,7 +69,8 @@
     "rollup": "^3.15.0",
     "rollup-plugin-node-externals": "^6.1.1",
     "rollup-plugin-polyfill-node": "^0.12.0",
-    "tsup": "^7.2.0"
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   },
   "license": "MIT",
   "engines": {

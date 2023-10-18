@@ -10,8 +10,12 @@ export default {
     'coverage': async () => `c8 ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('build'),
-    'build:old': () => 'rollup -c',
-    'build': () => 'rm -rf bundle && tsup babel/index.mjs -d bundle --dts-resolve',
+    'build-old': () => 'rollup -c',
+    'clean': () => 'rm -rf bundle',
+    'build': () => run(['clean', 'build:js', 'build:fix']),
+    'build:js': () => 'tsup lib/index.mjs -d bundle --dts-resolve --dts lib/index.d.ts',
+    'build:types': () => 'tsup lib/index.d.ts -d bundle --dts-resolve --dts-only',
+    'build:fix': () => `mv bundle/index.d.d.ts bundle/index.d.ts`,
     copy,
 };
 
