@@ -1,9 +1,5 @@
 import {run} from 'madrun';
 
-const env = {
-    MINIFY: 1,
-};
-
 export default {
     'test': () => `tape 'test/*.js'`,
     'watch:test': async () => `nodemon -w lib -w test -x ${await run('test')}`,
@@ -15,9 +11,9 @@ export default {
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('build'),
     'build:old': () => 'rollup -c',
-    'build': () => 'tsup babel/index.js -d bundle --dts-resolve',
+    'build': () => 'tsup babel/index.mjs -d bundle --dts-resolve',
     copy,
-}
+};
 
 function copy() {
     const cmdCopy = [
@@ -28,7 +24,9 @@ function copy() {
         'types',
         'code-frame',
         'globals-BABEL_8_BREAKING-true',
-    ].map(copyOne).join('; ');
+    ]
+        .map(copyOne)
+        .join('; ');
     
     return [
         'rm -rf packages',

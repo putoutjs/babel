@@ -1,13 +1,13 @@
 {
   "name": "@putout/babel",
-  "version": "1.4.0",
-  "type": "module",
+  "version": "1.4.1",
+  "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Babel 8 in CommonJS",
   "homepage": "https://github.com/putoutjs/babel",
   "main": "./bundle/babel.cjs",
   "exports": {
-    ".": "./bundle/index.cjs"
+    ".": "./bundle/index.js"
   },
   "types": "./bundle/index.d.ts",
   "repository": {

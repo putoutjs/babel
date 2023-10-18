@@ -1,6 +1,5 @@
 import template from '@babel/template';
 import generate from '@babel/generator';
-
 import * as types from '@babel/types';
 import traverse from '@babel/traverse';
 
@@ -9,7 +8,8 @@ export {
     traverse,
     generate,
     template,
-}
+};
 
 export * from '@babel/parser';
 export * from '@babel/code-frame';
+

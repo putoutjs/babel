@@ -1,6 +1,5 @@
-const {parse, abcd, types} = require('@putout/babel');
-const {isIdentifier} = types;
+const {parse, isIdentifier} = require('..');
 
-isIdentifier(1,2,3);
+isIdentifier(1, 2, 3);
 
 parse();

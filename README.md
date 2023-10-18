@@ -23,7 +23,6 @@ Becaouse each of them will be about `1.8mb`:
 
 <img width="479" alt="image" src="https://github.com/putoutjs/babel/assets/1573141/aa75f1bb-c312-4640-a605-fed0a0759427">
 
-
 ## License
 
 MIT

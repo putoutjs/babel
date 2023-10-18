@@ -1,11 +1,13 @@
-import commonjs from '@rollup/plugin-commonjs';
-import {nodeResolve} from '@rollup/plugin-node-resolve';
-import json from '@rollup/plugin-json';
-import alias from '@rollup/plugin-alias';
-import externals from 'rollup-plugin-node-externals';
-import replace from '@rollup/plugin-replace';
+'use strict';
 
-export default {
+const commonjs = require('@rollup/plugin-commonjs');
+const {nodeResolve} = require('@rollup/plugin-node-resolve');
+const json = require('@rollup/plugin-json');
+
+const externals = require('rollup-plugin-node-externals');
+const replace = require('@rollup/plugin-replace');
+
+module.exports = {
     input: 'babel/index.js',
     output: {
         file: 'bundle/index.cjs',
@@ -30,7 +32,7 @@ export default {
             values: {
                 'navigator.userAgentData': 'globalThis?.navigator?.userAgentData',
                 'navigator.userAgent': 'globalThis?.navigator?.userAgent',
-            }
+            },
         }),
     ],
 };

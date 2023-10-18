@@ -1,18 +1,19 @@
-import {types} from 'putout';
+'use strict';
 
+const {types} = require('putout');
 const {
     TSTypeReference,
     TSTypeAnnotation,
 } = types;
 
-export const report = () => `Use 'if condition' instead of 'ternary expression'`;
+module.exports.report = () => `Use 'if condition' instead of 'ternary expression'`;
 
-export const fix = (path) => {
+module.exports.fix = (path) => {
     const {key} = path.node;
     path.node.typeAnnotation = TSTypeAnnotation(TSTypeReference(key));
 };
 
-export const traverse = ({push}) => ({
+module.exports.traverse = ({push}) => ({
     TSPropertySignature(path) {
         push(path);
     },
