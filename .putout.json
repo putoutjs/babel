@@ -6,6 +6,9 @@
         },
         "example.js": {
             "remove-console": "off"
+        },
+        "test/*.ts": {
+            "remove-console": "off"
         }
     },
     "ignore": ["**/bundle"]
