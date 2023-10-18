@@ -1,4 +1,10 @@
-import {generate, traverse, codeFrameColumns, types, template} from '../';
+import {
+    generate,
+    traverse,
+    codeFrameColumns,
+    types,
+    template,
+} from '../';
 
 const rawLines = `class Foo {
   constructor()
