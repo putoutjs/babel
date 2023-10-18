@@ -21,6 +21,7 @@
   ],
   "scripts": {
     "test": "madrun test",
+    "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
     "fresh:lint": "madrun fresh:lint",
@@ -34,8 +35,7 @@
     "build": "madrun build",
     "build:js": "madrun build:js",
     "build:types": "madrun build:types",
-    "build:fix": "madrun build:fix",
-    "copy": "madrun copy"
+    "build:fix": "madrun build:fix"
   },
   "dependencies": {},
   "keywords": [
@@ -69,6 +69,7 @@
     "rollup": "^3.15.0",
     "rollup-plugin-node-externals": "^6.1.1",
     "rollup-plugin-polyfill-node": "^0.12.0",
+    "supertape": "^8.6.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
