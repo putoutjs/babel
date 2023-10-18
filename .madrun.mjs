@@ -2,6 +2,7 @@ import {run} from 'madrun';
 
 export default {
     'test': () => `tape 'lib/*.spec.js'`,
+    'pretest:dts': () => run('build'),
     'test:dts': () => 'check-dts',
     'watch:test': async () => `nodemon -w lib -w test -x ${await run('test')}`,
     'lint': () => `putout .`,

@@ -1,4 +1,4 @@
-import {parse, types} from '../';
+import {parse, types, codeFrameColumns} from '../';
 const {isIdentifier} = types;
 
 // THROWS Expected 1-2 arguments, but got 3
@@ -10,3 +10,5 @@ const a: number = isIdentifier({});
 // THROWS Argument of type 'number' is not assignable to parameter of type 'string'.
 parse(a);
 
+// THROWS Expected 3 arguments, but got 0.
+codeFrameColumns();

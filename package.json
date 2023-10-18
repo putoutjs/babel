@@ -21,6 +21,7 @@
   ],
   "scripts": {
     "test": "madrun test",
+    "pretest:dts": "madrun pretest:dts",
     "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
