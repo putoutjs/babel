@@ -61,7 +61,7 @@
     "check-dts": "^0.7.2",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-putout": "^20.0.0",
+    "eslint-plugin-putout": "^22.0.0",
     "globals": "^13.22.0",
     "madrun": "^9.0.0",
     "nodemon": "^3.0.1",
