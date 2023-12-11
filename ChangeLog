@@ -1,3 +1,15 @@
+2023.12.11, v1.6.0
+
+feature:
+- c974c00 @putout/babel: supertape v9.0.0
+- 684a752 @putout/babel: rollup-plugin-polyfill-node v0.13.0
+- ac91443 @putout/babel: rollup v4.8.0
+- 54969f7 @putout/babel: tsup v8.0.1
+- e25973a @putout/babel: madrun v10.0.0
+- 1caf245 @putout/babel: putout v34.0.5
+- 87387f4 @putout/babel: eslint-plugin-putout v22.0.0
+- 34d6caa babel v8-aplha.5
+
 2023.10.18, v1.5.5
 
 feature:
