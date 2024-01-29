@@ -1,3 +1,10 @@
+2024.01.29, v2.2.0
+
+feature:
+- 3907a1e @putout/babel: supertape v10.0.0
+- 21dee87 @putout/babel: rollup-plugin-node-externals v7.0.0
+- 0f4998a @putout/babel: c8 v9.1.0
+
 2023.12.18, v2.1.0
 
 feature:
