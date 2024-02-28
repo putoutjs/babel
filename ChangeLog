@@ -1,3 +1,10 @@
+2024.02.28, v2.3.0
+
+feature:
+- 41a6d6d @putout/babel: 8.0.0-alpha.7
+- dcccd5b @putout/babel: globals v14.0.0
+- b4b1c8e @putout/babel: putout v35.5.1
+
 2024.01.29, v2.2.0
 
 feature:
