@@ -1,3 +1,10 @@
+2024.06.03, v2.5.0
+
+feature:
+- 3d472fb @putout/babel: 8.0.0-alpha.9
+- 2f1458f @putout/babel: check-dts v0.8.0
+- 61f2ea2 @putout/babel: eslint v9.4.0
+
 2024.04.04, v2.4.0
 
 feature:
