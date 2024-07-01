@@ -1,3 +1,10 @@
+2024.07.01, v2.7.0
+
+feature:
+- 9d82fe1 @putout/babel: c8 v10.1.2
+- 05a143d @putout/babel: eslint-plugin-n v17.9.0
+- 2d9709b babel v8.0.0-alpha.11
+
 2024.06.04, v2.6.0
 
 feature:
