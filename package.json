@@ -44,12 +44,12 @@
     "commonjs"
   ],
   "devDependencies": {
-    "@babel/code-frame": "^8.0.0-alpha.11",
-    "@babel/generator": "^8.0.0-alpha.11",
-    "@babel/parser": "^8.0.0-alpha.11",
-    "@babel/template": "^8.0.0-alpha.11",
-    "@babel/traverse": "^8.0.0-alpha.11",
-    "@babel/types": "^8.0.0-alpha.11",
+    "@babel/code-frame": "^8.0.0-alpha.12",
+    "@babel/generator": "^8.0.0-alpha.12",
+    "@babel/parser": "^8.0.0-alpha.12",
+    "@babel/template": "^8.0.0-alpha.12",
+    "@babel/traverse": "^8.0.0-alpha.12",
+    "@babel/types": "^8.0.0-alpha.12",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-json": "^6.0.0",
