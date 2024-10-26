@@ -54,7 +54,7 @@
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-replace": "^6.0.1",
     "@swc/core": "^1.3.101",
     "@types/node": "^20.8.6",
     "acorn-stage3": "^4.0.0",
