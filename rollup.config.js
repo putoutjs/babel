@@ -24,7 +24,9 @@ module.exports = {
         externals({
             deps: false,
         }),
-        commonjs(),
+        commonjs({
+            strictRequires: 'auto',
+        }),
         json(),
         replace({
             exclude: 'globals',
