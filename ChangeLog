@@ -1,3 +1,9 @@
+2024.12.08, v2.10.0
+
+feature:
+- 8fa3a47 @putout/babel: @types/node v22.10.1
+- 0e1e371 babel v8 alpha 14
+
 2024.10.26, v2.9.0
 
 feature:
