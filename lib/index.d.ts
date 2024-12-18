@@ -1,5 +1,6 @@
 export * from '@babel/parser';
-export * as types from '@babel/types';
+import type * as types from '@babel/types';
+
 import type {
     traverse,
     Node,
@@ -26,9 +27,10 @@ declare namespace template {
     };
 }
 
-export {
+export type {
     codeFrameColumns,
     traverse,
     template,
     generate,
+    types,
 };
