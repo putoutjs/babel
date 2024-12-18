@@ -12,7 +12,6 @@ export default {
     'coverage': async () => `c8 ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('test'),
-    'build-old': () => 'rollup -c',
     'clean': () => 'rm -rf bundle',
     'build': () => run(['clean', 'build:js', 'build:fix']),
     'build:js': () => 'tsup --target es5 lib/index.mjs -d bundle --dts-resolve --dts lib/index.d.ts',
