@@ -1,3 +1,9 @@
+2024.12.18, v2.10.2
+
+feature:
+- 26d1473 @putout/babel: dts
+- 547c54f @putout/babel: putout v37.2.0
+
 2024.12.08, v2.10.1
 
 fix:
