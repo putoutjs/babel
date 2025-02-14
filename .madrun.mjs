@@ -15,6 +15,6 @@ export default {
     'clean': () => 'rm -rf bundle',
     'build': () => run(['clean', 'build:js', 'build:fix']),
     'build:js': () => 'tsup --target es5 lib/index.mjs -d bundle --dts-resolve --dts lib/index.d.ts',
-    'build:types': () => 'tsup --target es5 lib/index.d.ts -d bundle --dts-resolve --dts-only',
+    'build:types': () => 'tsup --target es2015 lib/index.d.ts -d bundle --dts-resolve --dts-only',
     'build:fix': () => `mv bundle/index.d.d.ts bundle/index.d.ts`,
 };
