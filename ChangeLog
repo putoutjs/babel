@@ -1,3 +1,20 @@
+2025.05.31, v4.0.0
+
+feature:
+- f143ca9 @putout/babel: drop support of node < 20
+- bae053b @putout/babel: supertape v11.1.2
+- 72c9b57 @putout/babel: putout v40.2.7
+- bdfe327 @putout/babel: madrun v11.0.2
+- 448f536 @putout/babel: globals v16.2.0
+- ba6a69c @putout/babel: eslint-plugin-putout v27.0.0
+- 21a5a4b @putout/babel: check-dts v0.9.0
+- 7be3a24 @putout/babel: @babel/types v7.27.3
+- 4a0e065 @putout/babel: @babel/traverse v7.27.4
+- 91bba13 @putout/babel: @babel/template v7.27.2
+- 6adb8d8 @putout/babel: @babel/parser v7.27.4
+- 5be2b51 @putout/babel: @babel/generator v7.27.3
+- 9e05ec2 @putout/babel: @babel/code-frame v7.27.1
+
 2025.03.11, v3.2.0
 
 feature:
