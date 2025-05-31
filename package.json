@@ -47,7 +47,7 @@
     "@babel/code-frame": "^7.27.1",
     "@babel/generator": "^7.27.3",
     "@babel/parser": "^7.27.4",
-    "@babel/template": "^8.0.0-beta.0",
+    "@babel/template": "^7.27.2",
     "@babel/traverse": "^8.0.0-beta.0",
     "@babel/types": "^8.0.0-beta.0",
     "@swc/core": "^1.3.101",
