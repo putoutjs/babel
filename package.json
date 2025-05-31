@@ -45,7 +45,7 @@
   ],
   "devDependencies": {
     "@babel/code-frame": "^7.27.1",
-    "@babel/generator": "^8.0.0-beta.0",
+    "@babel/generator": "^7.27.3",
     "@babel/parser": "^8.0.0-beta.0",
     "@babel/template": "^8.0.0-beta.0",
     "@babel/traverse": "^8.0.0-beta.0",
