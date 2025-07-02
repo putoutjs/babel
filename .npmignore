@@ -3,7 +3,10 @@ test
 yarn-error.log
 
 coverage
+rules
+scripts
 lib
 example.js
 index.html
 packages
+*.config.*

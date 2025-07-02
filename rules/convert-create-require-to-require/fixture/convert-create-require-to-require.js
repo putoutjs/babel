@@ -1,0 +1,2 @@
+var globalsBuiltinLower = (0, import_module.createRequire)(import_meta.url)("@babel/helper-globals/data/builtin-lower.json");
+var globalsBuiltinUpper = (0, import_module.createRequire)(import_meta.url)("@babel/helper-globals/data/builtin-upper.json");

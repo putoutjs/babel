@@ -12,7 +12,7 @@
   "types": "./bundle/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/putoutjs/babel.git"
+    "url": "git+https://github.com/putoutjs/babel.git"
   },
   "files": [
     "bundle",
@@ -21,6 +21,7 @@
   ],
   "scripts": {
     "test": "madrun test",
+    "test:js": "madrun test:js",
     "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
@@ -34,7 +35,8 @@
     "build": "madrun build",
     "build:js": "madrun build:js",
     "build:types": "madrun build:types",
-    "build:fix": "madrun build:fix"
+    "build:fix": "madrun build:fix",
+    "transform": "madrun transform"
   },
   "dependencies": {},
   "keywords": [
