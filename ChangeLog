@@ -1,3 +1,8 @@
+2025.07.03, v4.1.1
+
+feature:
+- f15f3f1 madrun: tsup: target: es2020
+
 2025.07.02, v4.1.0
 
 feature:
