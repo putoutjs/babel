@@ -23,6 +23,7 @@ logEnd();
 logStart('write');
 writeFileSync('./bundle/index.js', result);
 logEnd();
+logNewline();
 
 function logStart(message) {
     const divider = Array(35 - message.length).join('.');
@@ -32,4 +33,8 @@ function logStart(message) {
 
 function logEnd() {
     write('✅\n');
+}
+
+function logNewline() {
+    write('\n');
 }
