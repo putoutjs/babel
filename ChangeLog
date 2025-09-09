@@ -1,3 +1,9 @@
+2025.09.09, v4.3.0
+
+feature:
+- e60bc97 @putout/babel: decrease bundle size: rm flow
+- 25496a7 @putout/babel: remove-flow: add
+
 2025.09.05, v4.2.0
 
 feature:
