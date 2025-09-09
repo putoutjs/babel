@@ -1,6 +1,7 @@
 import {readFileSync, writeFileSync} from 'fs';
 import putout from 'putout';
 import * as convert from '../rules/convert-create-require-to-require/index.js';
+import * as removeFlow from '../rules/remove-flow.js';
 
 const {stdout} = process;
 const write = stdout.write.bind(stdout);
@@ -15,6 +16,7 @@ logStart('transform');
 const {code: result} = putout(data, {
     fix: true,
     plugins: [
+        ['remove-flow', removeFlow],
         ['convert-create-require-to-require', convert],
     ]
 });

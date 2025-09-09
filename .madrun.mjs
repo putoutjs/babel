@@ -14,7 +14,7 @@ export default {
     'wisdom': () => run('test'),
     'clean': () => 'rm -rf bundle',
     'build': () => run(['clean', 'build:js', 'build:fix']),
-    'build:js': () => 'tsup lib/index.mjs --target es2020 -d bundle --dts-resolve --dts lib/index.d.ts',
+    'build:js': () => 'tsup lib/index.mjs --target es2020 -d bundle --dts-resolve --dts lib/index.d.ts --metafile',
     'build:types': () => 'tsup lib/index.d.ts -d bundle --dts-resolve --dts-only',
     'build:fix': () => `mv bundle/index.d.d.ts bundle/index.d.ts`,
     'postbuild': () => 'node scripts/transform.mjs',

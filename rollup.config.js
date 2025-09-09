@@ -6,6 +6,7 @@ const json = require('@rollup/plugin-json');
 
 const externals = require('rollup-plugin-node-externals');
 const replace = require('@rollup/plugin-replace');
+import { visualizer } from 'rollup-plugin-visualizer';
 
 module.exports = {
     input: 'lib/index.js',
@@ -37,4 +38,7 @@ module.exports = {
             },
         }),
     ],
+    visualizer({
+      filename: './stats.html',
+    }),
 };

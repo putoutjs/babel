@@ -38,7 +38,9 @@
     "build:fix": "madrun build:fix",
     "transform": "madrun transform"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rollup-plugin-visualizer": "^6.0.3"
+  },
   "keywords": [
     "putout",
     "babel",
