@@ -10,3 +10,4 @@ example.js
 index.html
 packages
 *.config.*
+bundle/metafile-cjs.json
