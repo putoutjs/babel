@@ -1,3 +1,8 @@
+2025.09.20, v4.4.2
+
+feature:
+- a6e15a7 babel: rules: remove-flow
+
 2025.09.15, v4.4.1
 
 fix:
