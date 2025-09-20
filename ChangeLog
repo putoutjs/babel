@@ -1,3 +1,8 @@
+2025.09.20, v4.4.3
+
+fix:
+- 2e7682c npmignore: add bundle/metafile-cjs.json
+
 2025.09.20, v4.4.2
 
 feature:
