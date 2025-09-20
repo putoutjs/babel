@@ -21,7 +21,7 @@ function isFlowDeclaration(node, opts) {
        return false;
 }
 
-function isFlowDeclaration(node, opts) {
+function isFlowBaseDeclaration(node, opts) {
    if (!node)
        return false;
 }

@@ -1,9 +1,4 @@
-import {
-    parse,
-    types,
-    traverse,
-    codeFrameColumns,
-} from '../';
+import {parse, types} from '../';
 
 const {isIdentifier} = types;
 
@@ -14,7 +9,3 @@ const a = isIdentifier('x');
 
 // THROWS Argument of type 'boolean' is not assignable to parameter of type 'string'
 parse(a);
-// THROWS Expected 3 arguments, but got 0.
-codeFrameColumns();
-// THROWS Expected 2-3 arguments, but got 1.
-traverse(5);

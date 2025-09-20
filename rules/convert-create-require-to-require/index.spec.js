@@ -3,7 +3,7 @@
 const {createTest} = require('@putout/test');
 const plugin = require('./index.js');
 
-const test = createTest(import.meta.url, {
+const test = createTest(__dirname, {
     plugins: [
         ['convert-create-require-to-require', plugin],
     ],

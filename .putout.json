@@ -9,6 +9,9 @@
         },
         "test/*.ts": {
             "remove-console": "off"
+        },
+        "rules": {
+            "putout": "on"
         }
     },
     "ignore": ["**/bundle"]
