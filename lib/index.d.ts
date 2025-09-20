@@ -1,10 +1,6 @@
 export * from '@babel/parser';
 import type * as types from '@babel/types';
-
-import type {
-    traverse,
-    Node,
-} from '@babel/types';
+import type {traverse, Node} from '@babel/types';
 
 interface Location {
     start: {
@@ -28,9 +24,6 @@ declare namespace template {
 }
 
 export type {
-    codeFrameColumns,
     traverse,
-    template,
-    generate,
     types,
 };

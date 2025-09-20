@@ -1,7 +1,8 @@
-import {readFileSync, writeFileSync} from 'fs';
+import {readFileSync, writeFileSync} from 'node:fs';
+import process from 'node:process';
 import putout from 'putout';
 import * as convert from '../rules/convert-create-require-to-require/index.js';
-import * as removeFlow from '../rules/remove-flow.js';
+import * as removeFlow from '../rules/remove-flow/index.js';
 import * as removeDebug from '../rules/remove-debug.js';
 
 const {stdout} = process;
@@ -20,8 +21,9 @@ const {code: result} = putout(data, {
         ['remove-flow', removeFlow],
         ['remove-debug', removeDebug],
         ['convert-create-require-to-require', convert],
-    ]
+    ],
 });
+
 logEnd();
 
 logStart('write');
