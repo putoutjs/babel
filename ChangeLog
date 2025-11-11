@@ -1,3 +1,8 @@
+2025.11.11, v4.5.0
+
+feature:
+- 631ac12 @putout/babel: Babel v8 beta 3 (babel/babel#17568)
+
 2025.09.20, v4.4.3
 
 fix:
