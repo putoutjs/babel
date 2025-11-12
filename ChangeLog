@@ -1,3 +1,8 @@
+2025.11.12, v4.5.2
+
+feature:
+- 4287a8f @putout/babel: decrease bundle size: rm supports_color
+
 2025.11.12, v4.5.1
 
 feature:
