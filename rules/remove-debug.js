@@ -13,3 +13,4 @@ module.exports.replace = () => ({
     'var require_node = __': `var require_node = ${FN}`,
     'var require_supports_color = __': '',
 });
+
