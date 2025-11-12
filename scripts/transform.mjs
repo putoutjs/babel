@@ -23,6 +23,7 @@ const {code: result} = putout(data, {
         ['remove-debug', removeDebug],
         ['convert-create-require-to-require', convert],
         ['remove-no-babel-8', removeNoBabel8],
+        'remove-unused-variables',
     ],
 });
 
