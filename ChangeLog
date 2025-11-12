@@ -1,3 +1,8 @@
+2025.11.12, v4.5.4
+
+feature:
+- 03659e4 @putout/babel: appy-duplicate-declaration
+
 2025.11.12, v4.5.3
 
 feature:
