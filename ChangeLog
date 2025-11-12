@@ -1,3 +1,8 @@
+2025.11.12, v4.5.1
+
+feature:
+- 5c2b49d babel: decrease bundle size: no babel 8 check
+
 2025.11.11, v4.5.0
 
 feature:
