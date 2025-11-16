@@ -1,3 +1,8 @@
+2025.11.16, v4.5.5
+
+feature:
+- 11a0146 @putout/babel: Improve Unicode handling in code-frame tokenizer (babel/babel/#17589)
+
 2025.11.12, v4.5.4
 
 feature:
