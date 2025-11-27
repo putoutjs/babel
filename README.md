@@ -8,6 +8,7 @@
 Includes:
 - [`Fix traverse NodePath caching`](https://github.com/babel/babel/pull/17568);
 - [`Improve Unicode handling in code-frame tokenizer`](https://github.com/babel/babel/pull/17589);
+- [`Improve traverse types`](https://github.com/babel/babel/pull/17574);
 
 Usage
 
