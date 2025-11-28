@@ -1,6 +1,6 @@
 {
   "name": "@putout/babel",
-  "version": "4.5.8",
+  "version": "5.0.0",
   "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Babel 8 in CommonJS",
