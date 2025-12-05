@@ -1,3 +1,8 @@
+2025.12.05, v5.0.1
+
+feature:
+- c763771 @putout/babel: remove Babel 7 from the codebase
+
 2025.11.28, v5.0.0
 
 feature:
