@@ -6,6 +6,7 @@
 **CommonJS** pre-builts of Babel 8: if you want to migrate to [v8](https://github.com/babel/babel/releases/tag/v8.0.0-beta.3) but cannot support **ESM** right now.
 
 Includes:
+- [`Remove Babel 7 from the codebase`](https://github.com/babel/babel/pull/17618);
 - [`Fix traverse NodePath caching`](https://github.com/babel/babel/pull/17568);
 - [`Improve Unicode handling in code-frame tokenizer`](https://github.com/babel/babel/pull/17589);
 - [`Improve traverse types`](https://github.com/babel/babel/pull/17574);
