@@ -1,16 +1,18 @@
 'use strict';
 
-const FN = `() => () => ({
-    enabled: false,
-})`;
-
-module.exports.report = () => 'Remove flow';
+module.exports.report = () => 'Remove debug';
 
 module.exports.replace = () => ({
-    'var require_common = __': `var require_common = ${FN}`,
-    'var require_browser = __': `var require_browser = ${FN}`,
-    'var require_ms = __': `var require_ms = () => () => {}`,
-    'var require_node = __': `var require_node = ${FN}`,
-    'var require_supports_color = __': '',
+    'var import_node_tty = require("tty")': `var import_node_tty = {
+        isatty: () => false,
+    }`,
+    'var import_node_util = require("util")': `var import_node_util = {
+        formatWithOptions: () => false,
+        inspect: () => false,
+    }`,
+    'var colors = process.stderr.getColorDepth && process.stderr.getColorDepth() > 2 ? __a : __b': 'var colors = []',
+    'function createDebug(__args) {__body}': 'function createDebug() {}',
+    'var inspectOpts = __': 'var inspectOpts = {}',
+    'function formatArgs(__args) {__body}': 'function formatArgs() {}'
 });
 
