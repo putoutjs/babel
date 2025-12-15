@@ -11,6 +11,7 @@ Includes:
 - [`Improve Unicode handling in code-frame tokenizer`](https://github.com/babel/babel/pull/17589);
 - [`Improve traverse types`](https://github.com/babel/babel/pull/17574);
 - [`Rename TSImportType.argument to .source`](https://github.com/babel/babel/pull/17610);
+- [`Remove decorator parser plugin options`](https://github.com/babel/babel/pull/17643);
 
 Usage
 
