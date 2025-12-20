@@ -22,7 +22,7 @@
   "scripts": {
     "test": "madrun test",
     "test:js": "madrun test:js",
-    "test:dts": "madrun test:dts",
+    "_test:dts": "madrun _test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
     "fresh:lint": "madrun fresh:lint",
@@ -33,10 +33,11 @@
     "wisdom": "madrun wisdom",
     "clean": "madrun clean",
     "build": "madrun build",
+    "build:babel": "madrun build:babel",
     "build:js": "madrun build:js",
     "build:types": "madrun build:types",
     "build:fix": "madrun build:fix",
-    "transform": "madrun transform"
+    "postbuild": "madrun postbuild"
   },
   "dependencies": {
     "rollup-plugin-visualizer": "^6.0.3"
