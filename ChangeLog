@@ -1,3 +1,9 @@
+2025.12.20, v5.0.7
+
+feature:
+- c58c79d @putout/babel: Ensure parseExpression with tokens: true returns the exported tokens
+- 0d3bce4 @putout/babel: add build:babel
+
 2025.12.19, v5.0.6
 
 feature:
