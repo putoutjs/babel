@@ -1,5 +1,5 @@
 const USE_COLORS = `function useColors() {
-    return 'colors' in inspectOpts ? Boolean(inspectOpts.colors) : (0, import_node_tty.isatty)(process.stderr.fd);
+    return 'colors' in inspectOpts ? Boolean(inspectOpts.colors) : __;
 }`;
 
 export const report = () => 'Remove debug';
