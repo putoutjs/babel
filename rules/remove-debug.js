@@ -21,4 +21,7 @@ export const replace = () => ({
     'var inspectOpts = __': 'var inspectOpts = {}',
     'function formatArgs(__args) {__body}': 'function formatArgs() {}',
     [USE_COLORS]: 'function useColors() {}',
+
+    'import {isatty} from "tty"': 'var isatty = () => false',
+    'import {formatWithOptions, inspect} from "util"': ''
 });
