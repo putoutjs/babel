@@ -3,7 +3,7 @@
 [NPMIMGURL]: https://img.shields.io/npm/v/@putout/babel.svg?style=flat&longCache=true
 [NPMURL]: https://npmjs.org/package/@putout/babel "npm"
 
-**CommonJS** pre-builts of Babel 8: if you want to migrate to [v8](https://github.com/babel/babel/releases/tag/v8.0.0-beta.3) but cannot support **ESM** right now.
+Pre-builts of Babel 8.
 
 Includes:
 - [`Remove Babel 7 from the codebase`](https://github.com/babel/babel/pull/17618);
@@ -18,13 +18,13 @@ Includes:
 Usage
 
 ```js
-const {
+import {
     parse,
     types,
     generate,
     template,
     codeFrameColumns,
-} = require('@putout/babel');
+} from '@putout/babel';
 ```
 
 ## License

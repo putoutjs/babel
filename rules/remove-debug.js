@@ -1,12 +1,10 @@
-'use strict';
-
 const USE_COLORS = `function useColors() {
     return 'colors' in inspectOpts ? Boolean(inspectOpts.colors) : (0, import_node_tty.isatty)(process.stderr.fd);
-}`
+}`;
 
-module.exports.report = () => 'Remove debug';
+export const report = () => 'Remove debug';
 
-module.exports.replace = () => ({
+export const replace = () => ({
     'var import_node_tty = require("tty")': `var import_node_tty = {
         isatty: () => false,
     }`,
@@ -24,4 +22,3 @@ module.exports.replace = () => ({
     'function formatArgs(__args) {__body}': 'function formatArgs() {}',
     [USE_COLORS]: 'function useColors() {}',
 });
-

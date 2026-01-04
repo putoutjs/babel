@@ -1,7 +1,5 @@
-'use strict';
+export const report = () => `Use 'require' instead of 'createRequire'`;
 
-module.exports.report = () => `Use 'require' instead of 'createRequire'`;
-
-module.exports.replace = () => ({
+export const replace = () => ({
     '(0, import_module.createRequire)(import_meta.url)': 'require',
 });

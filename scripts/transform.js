@@ -19,13 +19,17 @@ logEnd();
 logStart('transform');
 const {code: result} = putout(data, {
     fix: true,
+    rules: {
+        'variables': 'off',
+        'variables/remove-unused': 'on',
+    },
     plugins: [
         ['apply-duplicate-declaration', applyDuplicateDeclaration],
         ['remove-flow', removeFlow],
         ['remove-debug', removeDebug],
         ['convert-create-require-to-require', convert],
         ['remove-no-babel-8', removeNoBabel8],
-        'remove-unused-variables',
+        'variables'
     ],
 });
 

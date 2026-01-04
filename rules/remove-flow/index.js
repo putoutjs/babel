@@ -1,5 +1,3 @@
-'use strict';
-
 const MIXIN = `
   var mixinPlugins = {
       estree,
@@ -11,9 +9,9 @@ const MIXIN = `
   };
 `;
 
-module.exports.report = () => 'Remove flow';
+export const report = () => 'Remove flow';
 
-module.exports.replace = () => ({
+export const replace = () => ({
     'var flow = __': '',
     'var FlowErrors = __': '',
     'function FlowExportDeclaration(__args) {__body}': '',

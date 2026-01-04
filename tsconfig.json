@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es2015",
+        "target": "es2024",
         "skipLibCheck": true,
         "exclude": [
             "fixture/*.ts"

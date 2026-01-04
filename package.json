@@ -1,7 +1,7 @@
 {
   "name": "@putout/babel",
   "version": "5.0.7",
-  "type": "commonjs",
+  "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Babel 8 in CommonJS",
   "homepage": "https://github.com/putoutjs/babel",
@@ -36,8 +36,7 @@
     "build:babel": "madrun build:babel",
     "build:js": "madrun build:js",
     "build:types": "madrun build:types",
-    "build:fix": "madrun build:fix",
-    "postbuild": "madrun postbuild"
+    "build:fix": "madrun build:fix"
   },
   "dependencies": {
     "rollup-plugin-visualizer": "^6.0.3"
@@ -73,7 +72,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"

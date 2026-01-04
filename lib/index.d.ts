@@ -1,6 +1,6 @@
 export * from '@babel/parser';
-import type * as types from '@babel/types';
-import type {traverse, Node} from '@babel/types';
+export * as types from '@babel/types';
+import type {Node} from '@babel/types';
 
 interface Location {
     start: {
@@ -22,8 +22,3 @@ declare namespace template {
         ast,
     };
 }
-
-export type {
-    traverse,
-    types,
-};
