@@ -1,3 +1,8 @@
+2026.01.10, v5.2.0
+
+feature:
+- 6eafdb0 @putout/babel: Drop support for TS module <identifier>
+
 2026.01.04, v5.1.2
 
 fix:
