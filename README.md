@@ -6,6 +6,7 @@
 Pre-builts of Babel 8.
 
 Includes:
+- [`Drop support for TS module <identifier>`](https://github.com/babel/babel/pull/17659);
 - [`Remove Babel 7 from the codebase`](https://github.com/babel/babel/pull/17618);
 - [`Fix traverse NodePath caching`](https://github.com/babel/babel/pull/17568);
 - [`Improve Unicode handling in code-frame tokenizer`](https://github.com/babel/babel/pull/17589);
