@@ -1,3 +1,13 @@
+2026.01.12, v5.2.1
+
+feature:
+- 065be25 @putout/babel: madrun v12.1.0
+- 6c1616f @putout/babel: putout v41.7.0
+- c231992 @putout/babel: supertape v12.0.12
+- e48677b @putout/babel: globals v17.0.0
+- bcf7565 @putout/babel: eslint-plugin-putout v29.4.0
+- 8feac46 @putout/babel: @types/node v25.0.6
+
 2026.01.10, v5.2.0
 
 feature:
