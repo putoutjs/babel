@@ -7,6 +7,8 @@ Pre-builts of Babel 8.
 
 Includes:
 - [`generator: cleanup Babel 8 comments`](https://github.com/babel/babel/pull/17659);
+- [`Remove @babel/plugin-transform-object-assign`](https://github.com/babel/babel/pull/17619);
+
 
 Usage
 
