@@ -1,3 +1,8 @@
+2026.01.23, v5.2.4
+
+fix:
+- 5806fae @putout/babel: improve parentheses rule of conditional
+
 2026.01.17, v5.2.3
 
 feature:
