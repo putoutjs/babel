@@ -6,8 +6,10 @@
 Pre-builts of Babel 8.
 
 Includes:
-- [`Enable strictNullChecks for @babel/core`](https://github.com/babel/babel/pull/7611);
-- [`Improve generator performance`](https://github.com/babel/babel/pull/7718);
+- [`Fix support super method call`](https://github.com/babel/babel/pull/17662);
+- [`Fix hoisting of function declarations in loops and switch`](https://github.com/babel/babel/pull/17691);
+- [`Enable strictNullChecks for @babel/core`](https://github.com/babel/babel/pull/17611);
+- [`Improve generator performance`](https://github.com/babel/babel/pull/17718);
 - [`generator: cleanup Babel 8 comments`](https://github.com/babel/babel/pull/17659);
 - [`Remove @babel/plugin-transform-object-assign`](https://github.com/babel/babel/pull/17619);
 
