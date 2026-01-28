@@ -1,3 +1,8 @@
+2026.01.28, v5.2.6
+
+feature:
+- 415c024 babel: remove smart pipeline support
+
 2026.01.24, v5.2.5
 
 feature:
