@@ -6,6 +6,7 @@
 Pre-builts of Babel 8.
 
 Includes:
+- [`cleanup optional AST checks`](https://github.com/babel/babel/pull/17759);
 - [`Remove smart pipeline support and remove accessor property from Standardized alias`](https://github.com/babel/babel/pull/17732);
 - [`Fix support super method call`](https://github.com/babel/babel/pull/17662);
 - [`Fix hoisting of function declarations in loops and switch`](https://github.com/babel/babel/pull/17691);
