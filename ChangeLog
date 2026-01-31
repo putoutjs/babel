@@ -1,3 +1,8 @@
+2026.01.31, v5.2.8
+
+feature:
+- 0b9fb71 replace picocolors with node:util.styleText() in @babel/code-frame
+
 2026.01.30, v5.2.7
 
 feature:
