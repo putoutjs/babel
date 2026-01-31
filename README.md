@@ -6,6 +6,7 @@
 Pre-builts of Babel 8.
 
 Includes:
+- [`Replace picocolors with node:util.styleText() in @babel/code-frame`](https://github.com/babel/babel/pull/17678);
 - [`cleanup optional AST checks`](https://github.com/babel/babel/pull/17759);
 - [`Remove smart pipeline support and remove accessor property from Standardized alias`](https://github.com/babel/babel/pull/17732);
 - [`Fix support super method call`](https://github.com/babel/babel/pull/17662);
