@@ -3,7 +3,7 @@
   "version": "5.2.8",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
-  "description": "Babel 8 in CommonJS",
+  "description": "Babel 8 bundled",
   "homepage": "https://github.com/putoutjs/babel",
   "main": "./bundle/index.js",
   "exports": {
@@ -48,12 +48,12 @@
     "commonjs"
   ],
   "devDependencies": {
-    "@babel/code-frame": "8.0.0-beta.4",
-    "@babel/generator": "8.0.0-beta.4",
-    "@babel/parser": "8.0.0-beta.4",
-    "@babel/template": "8.0.0-beta.4",
-    "@babel/traverse": "8.0.0-beta.4",
-    "@babel/types": "8.0.0-beta.4",
+    "@babel/code-frame": "8.0.0-rc.1",
+    "@babel/generator": "8.0.0-rc.1",
+    "@babel/parser": "8.0.0-rc.1",
+    "@babel/template": "8.0.0-rc.1",
+    "@babel/traverse": "8.0.0-rc.1",
+    "@babel/types": "8.0.0-rc.1",
     "@swc/core": "^1.3.101",
     "@types/node": "^25.0.6",
     "acorn-stage3": "^4.0.0",
