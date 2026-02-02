@@ -6,6 +6,7 @@ import * as convert from '../rules/convert-create-require-to-require/index.js';
 import * as removeFlow from '../rules/remove-flow/index.js';
 import * as removeDebug from '../rules/remove-debug.js';
 import * as removeNoBabel8 from '../rules/remove-no-babel-8.js';
+import * as addPonyfillToStyleText from '../rules/add-ponyfill-to-style-text/index.js';
 
 const {stdout} = process;
 const write = stdout.write.bind(stdout);
@@ -24,12 +25,14 @@ const {code: result} = putout(data, {
         'variables/remove-unused': 'on',
     },
     plugins: [
+        ['add-ponyfill-to-style-text', addPonyfillToStyleText],
         ['apply-duplicate-declaration', applyDuplicateDeclaration],
         ['remove-flow', removeFlow],
         ['remove-debug', removeDebug],
         ['convert-create-require-to-require', convert],
         ['remove-no-babel-8', removeNoBabel8],
-        'variables'
+        'variables',
+        'remove-nested-blocks',
     ],
 });
 
