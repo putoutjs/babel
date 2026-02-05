@@ -1,3 +1,8 @@
+2026.02.05, v5.2.12
+
+feature:
+- 5f6ebd5 @putout/babel: remove deprecated default export from @babel/code-frame
+
 2026.02.02, v5.2.11
 
 feature:

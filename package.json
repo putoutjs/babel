@@ -1,6 +1,6 @@
 {
   "name": "@putout/babel",
-  "version": "5.2.11",
+  "version": "5.2.12",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Babel 8 bundled",
