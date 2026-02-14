@@ -1,3 +1,8 @@
+2026.02.14, v5.2.13
+
+fix:
+- d0b93a7 preserve trailing comma in optional call args
+
 2026.02.05, v5.2.12
 
 feature:
