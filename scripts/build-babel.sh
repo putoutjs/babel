@@ -6,6 +6,6 @@ git reset HEAD —hard
 git pull --rebase
 
 Make build prepublish
-node Makefile.source.mjs prepublish
+node Makefile.js prepublish
 
 cd ../babel
