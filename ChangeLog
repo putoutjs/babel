@@ -1,3 +1,8 @@
+2026.02.23, v5.3.1
+
+fix:
+- 5ca1dae TypeScript parser failing on async calls in ternary consequent
+
 2026.02.15, v5.3.0
 
 feature:
