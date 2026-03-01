@@ -1,3 +1,12 @@
+2026.03.01, v5.3.2
+
+feature:
+- 83ab6be @putout/babel: eslint v10.0.2
+- 7b885bb @putout/babel: putout v42.0.23
+- 906c578 @putout/babel: madrun v13.0.0
+- 6c07843 @putout/babel: superc8 v12.1.2
+- e645355 async x => {} must be in leading pos
+
 2026.02.23, v5.3.1
 
 fix:
