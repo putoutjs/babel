@@ -6,6 +6,7 @@
 Pre-builts of [Babel 8](https://github.com/babel/babel/releases/tag/v8.0.0-rc.2).
 Includes:
 
+- [`Fix: parser: async x => {} must be in leading pos`](https://github.com/babel/babel/pull/17839);
 - [`Fix TypeScript parser failing on async calls in ternary consequent`](https://github.com/babel/babel/pull/17799);
 
 Usage
