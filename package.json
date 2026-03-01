@@ -62,7 +62,7 @@
     "eslint-plugin-n": "^17.9.0",
     "eslint-plugin-putout": "^29.4.0",
     "globals": "^17.0.0",
-    "madrun": "^12.1.0",
+    "madrun": "^13.0.0",
     "nodemon": "^3.0.1",
     "putout": "^41.7.0",
     "superc8": "^12.1.2",
