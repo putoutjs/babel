@@ -11,3 +11,4 @@ index.html
 packages
 *.config.*
 metafile-cjs.json
+metafile-esm.json
