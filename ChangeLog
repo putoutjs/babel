@@ -1,3 +1,8 @@
+2026.03.08, v5.3.5
+
+feature:
+- 14c8001 add locations option to parser
+
 2026.03.06, v5.3.4
 
 fix:
