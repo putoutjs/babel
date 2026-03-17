@@ -39,7 +39,7 @@
     "build:fix:dts": "madrun build:fix:dts"
   },
   "dependencies": {
-    "rollup-plugin-visualizer": "^6.0.3"
+    "rollup-plugin-visualizer": "^7.0.1"
   },
   "keywords": [
     "putout",
