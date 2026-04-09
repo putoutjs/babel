@@ -1,3 +1,11 @@
+2026.04.09, v5.4.2
+
+fix:
+- 8d232e6 @putout/babel: dependencies
+
+feature:
+- 0fb7b22 @putout/babel: typescript v6.0.2
+
 2026.03.27, v5.4.1
 
 feature:
