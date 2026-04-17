@@ -1,3 +1,8 @@
+2026.04.17, v5.4.3
+
+feature:
+- 3133b9a @putout/babel: chore: Improve bundling packages
+
 2026.04.09, v5.4.2
 
 fix:
