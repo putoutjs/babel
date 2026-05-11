@@ -1,3 +1,8 @@
+2026.05.11, v5.6.0
+
+feature:
+- c2e646e @putout/babel: use 0-based columns to match Babel AST locations
+
 2026.04.30, v5.5.0
 
 feature:
