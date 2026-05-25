@@ -10,5 +10,5 @@ example.js
 index.html
 packages
 *.config.*
-metafile-cjs.json
-metafile-esm.json
+bundle/metafile-cjs.json
+bundle/metafile-esm.json
