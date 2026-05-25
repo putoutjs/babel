@@ -1,3 +1,8 @@
+2026.05.25, v5.7.2
+
+fix:
+- 9d525df package: rm metafile-esm.json
+
 2026.05.25, v5.7.1
 
 fix:
