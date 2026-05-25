@@ -1,3 +1,8 @@
+2026.05.25, v5.7.1
+
+fix:
+- 864b9b1 npmignore: rm metafile-esm.json
+
 2026.05.25, v5.7.0
 
 feature:
