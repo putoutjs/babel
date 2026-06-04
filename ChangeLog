@@ -1,3 +1,8 @@
+2026.06.05, v5.7.3
+
+fix:
+- 9fcf080 generator: improve new callee parens check
+
 2026.05.25, v5.7.2
 
 fix:
