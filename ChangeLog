@@ -1,3 +1,11 @@
+2026.06.16, v5.8.0
+
+feature:
+- 9d7807b @putout/babel: @babel/traverse v8.0.0
+- cd245eb @putout/babel: @babel/template v8.0.0
+- daf0c89 @putout/babel: @babel/generator v8.0.0
+- 7e4c2cd @putout/babel: @babel/code-frame v8.0.0
+
 2026.06.05, v5.7.3
 
 fix:
