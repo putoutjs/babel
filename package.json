@@ -46,7 +46,7 @@
     "commonjs"
   ],
   "devDependencies": {
-    "@babel/code-frame": "8.0.0-rc.6",
+    "@babel/code-frame": "^8.0.0",
     "@babel/generator": "8.0.0-rc.6",
     "@babel/parser": "8.0.0-rc.6",
     "@babel/template": "8.0.0-rc.6",
