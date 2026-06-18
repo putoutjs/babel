@@ -16,8 +16,7 @@
     "url": "git+https://github.com/putoutjs/babel.git"
   },
   "files": [
-    "bundle/index.js",
-    "types",
+    "bundle",
     "README.md",
     "LICENSE"
   ],
