@@ -14,7 +14,12 @@ export default {
     'wisdom': () => run('test'),
     'prewisdom': () => run('test:dts'),
     'clean': () => 'rm -rf bundle',
-    'build': async () => await run(['clean', 'build:js', 'build:fix:*']),
+    'build': async () => await run([
+        'clean',
+        'build:types',
+        'build:js',
+        'build:fix:*',
+    ]),
     'build:babel': () => './scripts/build-babel.sh',
     'build:js': () => 'tsup --format esm lib/index.js --target es2024 -d bundle --dts-resolve --dts lib/index.d.ts --metafile',
     'build:types': () => 'tsup lib/index.d.ts -d bundle --dts-only',

@@ -10,7 +10,7 @@
     ".": "./bundle/index.js"
   },
   "browser": "./bundle/index.js",
-  "types": "./types/index.d.ts",
+  "types": "./bundle/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/putoutjs/babel.git"
@@ -18,7 +18,6 @@
   "files": [
     "bundle/index.js",
     "types",
-    "lib",
     "README.md",
     "LICENSE"
   ],
