@@ -4,6 +4,7 @@ export * from '@babel/parser';
 export {default as traverse} from '@babel/traverse';
 export * as types from '@babel/types';
 export type * from '@babel/types';
+export type * from '@babel/traverse';
 interface Location {
     start: {
         line: number;
