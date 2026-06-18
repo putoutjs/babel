@@ -1,3 +1,8 @@
+2026.06.18, v5.9.6
+
+fix:
+- 506eb5f @putout/babel: types
+
 2026.06.18, v5.9.5
 
 feature:
