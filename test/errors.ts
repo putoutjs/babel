@@ -17,4 +17,3 @@ const node: Node = identifier('hello');
 isIdentifier(node, 'hello');
 // THROWS Argument of type 'boolean' is not assignable to parameter of type 'string'
 parse(a);
-
