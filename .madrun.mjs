@@ -17,7 +17,7 @@ export default {
     'build': async () => await run(['clean', 'build:js', 'build:fix:*']),
     'build:babel': () => './scripts/build-babel.sh',
     'build:js': () => 'tsup --format esm lib/index.js --target es2024 -d bundle --dts-resolve --dts lib/index.d.ts --metafile',
-    'build:types': () => 'tsup lib/index.d.ts -d bundle --dts-resolve --dts-only',
+    'build:types': () => 'tsup lib/index.d.ts -d bundle --dts-only',
     'build:fix:dts': () => `mv bundle/index.d.d.ts bundle/index.d.ts`,
     'postbuild': () => 'node scripts/transform.js',
 };
