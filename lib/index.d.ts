@@ -1,5 +1,7 @@
 export * from '@babel/parser';
+export {default as traverse} from '@babel/traverse';
 export * as types from '@babel/types';
+export type * from '@babel/types';
 import type {Node} from '@babel/types';
 
 interface Location {
@@ -13,11 +15,13 @@ interface CodeFrameOptions {}
 
 interface TemplateOptions {}
 
-declare function codeFrameColumns(rawLines: string, location: Location, options: CodeFrameOptions): string;
-declare function template(source: string, options?: TemplateOptions): string;
+export declare function codeFrameColumns(rawLines: string, location: Location, options: CodeFrameOptions): string;
+export declare function template(source: string, options?: TemplateOptions): string;
+
+export declare function generate(ast: Node): string;
+
 declare function ast(source: string): Node;
-declare function generate(ast: Node): string;
-declare namespace template {
+export declare namespace template {
     export {
         ast,
     };
