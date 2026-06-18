@@ -3,7 +3,7 @@
 [NPMIMGURL]: https://img.shields.io/npm/v/@putout/babel.svg?style=flat&longCache=true
 [NPMURL]: https://npmjs.org/package/@putout/babel "npm"
 
-Pre-builds of Babel [v8](https://github.com/babel/babel/releases/tag/v8.0.0-beta.4).
+Pre-builds of Babel [v8](https://github.com/babel/babel/releases/tag/v8.0.0).
 
 Usage
 
