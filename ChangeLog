@@ -1,3 +1,8 @@
+2026.06.18, v5.9.3
+
+fix:
+- 82dd2d0 @putout/babel: exports: bundle
+
 2026.06.18, v5.9.2
 
 fix:
