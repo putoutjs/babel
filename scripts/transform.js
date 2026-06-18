@@ -15,6 +15,7 @@ write('🚀transform bundle:\n\n');
 
 logStart('read');
 const data = readFileSync('./bundle/index.js', 'utf8');
+
 logEnd();
 
 logStart('transform');
