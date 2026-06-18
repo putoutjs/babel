@@ -5,18 +5,19 @@
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Babel 8 bundled",
   "homepage": "https://github.com/putoutjs/babel",
-  "main": "./lib/index.js",
+  "main": "./bundle/index.js",
   "exports": {
     ".": "./bundle/index.js"
   },
   "browser": "./bundle/index.js",
-  "types": "./bundle/index.d.ts",
+  "types": "./types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/putoutjs/babel.git"
   },
   "files": [
     "bundle/index.js",
+    "types",
     "lib",
     "README.md",
     "LICENSE"
