@@ -7,7 +7,7 @@
   "homepage": "https://github.com/putoutjs/babel",
   "main": "./lib/index.js",
   "exports": {
-    ".": "./lib/bundle.js"
+    ".": "./bundle/index.js"
   },
   "browser": "./bundle/index.js",
   "types": "./bundle/index.d.ts",
