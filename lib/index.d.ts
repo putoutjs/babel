@@ -1,9 +1,9 @@
+import type {Node} from '@babel/types';
+
 export * from '@babel/parser';
 export {default as traverse} from '@babel/traverse';
 export * as types from '@babel/types';
 export type * from '@babel/types';
-import type {Node} from '@babel/types';
-
 interface Location {
     start: {
         line: number;

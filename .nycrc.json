@@ -1,12 +1,12 @@
 {
-    "check-coverage": false,
+    "checkCoverage": false,
     "all": false,
     "exclude": [
         "**/*.spec.*",
+        "**/*.config.*",
         "**/fixture",
-        "test",
         ".*.*",
-        "**/*.config.*"
+        "test"
     ],
     "branches": 100,
     "lines": 100,

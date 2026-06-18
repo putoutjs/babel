@@ -1,14 +1,17 @@
-.*
-test
-yarn-error.log
+*.config.*
+*.log
+*.lock
 
+.*
+
+example.js
+index.html
+bundle/metafile-cjs.json
+bundle/metafile-esm.json
+
+test
 coverage
 rules
 scripts
 lib
-example.js
-index.html
 packages
-*.config.*
-bundle/metafile-cjs.json
-bundle/metafile-esm.json
