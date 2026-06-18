@@ -4,7 +4,7 @@ import {
     codeFrameColumns,
     types,
     template,
-} from '../';
+} from '../lib/index.js';
 
 const rawLines = `class Foo {
   constructor()

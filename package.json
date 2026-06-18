@@ -22,7 +22,7 @@
   "scripts": {
     "test": "madrun test",
     "test:js": "madrun test:js",
-    "_test:dts": "madrun _test:dts",
+    "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
     "fresh:lint": "madrun fresh:lint",

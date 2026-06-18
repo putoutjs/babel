@@ -7,7 +7,7 @@ const env = {
 export default {
     'test': () => run(['build', 'test:*']),
     'test:js': () => `tape 'lib/*.spec.js'`,
-    '_test:dts': () => 'check-dts test/*.ts',
+    'test:dts': () => 'check-dts test/*.ts',
     'watch:test': async () => `nodemon -w lib -w test -x "${await run('test')}"`,
     'lint': () => `putout .`,
     'fresh:lint': () => run('lint', '--fresh'),

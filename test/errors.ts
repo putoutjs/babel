@@ -1,4 +1,4 @@
-import {parse, types} from '../';
+import {parse, types} from '../lib/index.js';
 
 const {isIdentifier} = types;
 
