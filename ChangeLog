@@ -1,3 +1,8 @@
+2026.06.18, v5.9.4
+
+fix:
+- 1374e11 @putout/bundle: exports
+
 2026.06.18, v5.9.3
 
 fix:
