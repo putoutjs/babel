@@ -1,3 +1,8 @@
+2026.09.11, v5.9.11
+
+fix:
+- 7c3491d rules: remove-debug: getColorDepth -> getColorDepth(__args)
+
 2026.09.11, v5.9.10
 
 feature:
