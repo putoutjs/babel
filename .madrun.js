@@ -12,7 +12,6 @@ export default {
     'coverage': async () => `c8 ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
     'wisdom': () => run('test'),
-    'prewisdom': () => run('test:dts'),
     'clean': () => 'rm -rf bundle',
     'build': async () => await run([
         'clean',
