@@ -12,7 +12,7 @@ export const replace = () => ({
         formatWithOptions: () => false,
         inspect: () => false,
     }`,
-    'var colors = process.stderr.getColorDepth && process.stderr.getColorDepth() > 2 ? __a : __b': 'var colors = []',
+    'var colors = process.stderr.getColorDepth && process.stderr.getColorDepth(__args) > 2 ? __a : __b': 'var colors = []',
     'function createDebug(__args) {__body}': `function createDebug() {
         return {
             enabled: false,
