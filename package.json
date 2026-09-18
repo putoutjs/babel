@@ -41,12 +41,12 @@
     "build:fix:dts": "madrun build:fix:dts"
   },
   "dependencies": {
-    "@babel/code-frame": "^8.0.0",
-    "@babel/generator": "^8.0.0",
-    "@babel/parser": "^8.0.5",
+    "@babel/code-frame": "^8.0.6",
+    "@babel/generator": "^8.0.6",
+    "@babel/parser": "^8.0.6",
     "@babel/template": "^8.0.0",
-    "@babel/traverse": "^8.0.0",
-    "@babel/types": "^8.0.0"
+    "@babel/traverse": "^8.0.6",
+    "@babel/types": "^8.0.6"
   },
   "keywords": [
     "putout",
