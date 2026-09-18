@@ -1,3 +1,8 @@
+2026.09.18, v5.9.13
+
+feature:
+- 2c20b5b babel v8.0.6 (https://github.com/babel/babel/releases/tag/v8.0.6)
+
 2026.09.11, v5.9.12
 
 fix:
