@@ -68,7 +68,7 @@
     "rollup-plugin-visualizer": "^7.0.1",
     "superc8": "^12.1.2",
     "supertape": "^13.2.0",
-    "tsup": "^8.0.1",
+    "tsup": "^9.0.0",
     "typescript": "^6.0.2"
   },
   "license": "MIT",
