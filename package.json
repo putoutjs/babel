@@ -43,7 +43,7 @@
   "dependencies": {
     "@babel/code-frame": "^8.0.6",
     "@babel/generator": "^8.0.6",
-    "@babel/parser": "^8.0.8",
+    "@babel/parser": "^8.0.10",
     "@babel/template": "^8.0.0",
     "@babel/traverse": "^8.0.6",
     "@babel/types": "^8.0.6"
