@@ -1,3 +1,8 @@
+2026.10.31, v5.9.16
+
+feature:
+- 308446e @putout/babel: @babel/parser v8.0.10
+
 2026.10.24, v5.9.15
 
 feature:
