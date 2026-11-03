@@ -1,3 +1,8 @@
+2026.11.03, v5.10.1
+
+fix:
+- f7e67c2 @babel/parser version
+
 2026.11.03, v5.10.0
 
 feature:
