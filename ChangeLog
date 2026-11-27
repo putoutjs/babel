@@ -1,3 +1,8 @@
+2026.11.27, v5.10.4
+
+feature:
+- 0f91c4a @putout/babel: @babel/generator v8.1.4
+
 2026.11.20, v5.10.3
 
 feature:
